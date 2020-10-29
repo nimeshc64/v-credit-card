@@ -18,7 +18,7 @@
                     <rect x="42.9" y="224.5" class="st4" width="664.1" height="10.5" />
                     <path class="st5" d="M701.1,184.6H618h-8h-10v64.5h10h8h83.1c3.3,0,6-2.7,6-6v-52.5C707.1,187.3,704.4,184.6,701.1,184.6z" />
                 </g>
-                <text transform="matrix(1 0 0 1 621.999 227.2734)" id="svgsecurity" class="st6 st7">{{ security }}</text>
+                <text transform="matrix(1 0 0 1 621.999 227.2734)" id="svgsecurity" class="st6 st7">{{ security.replace(/./g, '*') }}</text>
                 <g class="st8">
                     <text transform="matrix(1 0 0 1 518.083 280.0879)" class="st9 st6 st10">security code</text>
                 </g>

@@ -56,7 +56,7 @@
                     </div>
                     <div class="field">
                         <label for="securitycode">{{ trans.security.label}}</label>
-                        <input type="text"
+                        <input type="password"
                             name="security_code"
                             id="securitycode"
                             ref="security"
